@@ -1,0 +1,48 @@
+{
+  "name": "bpmn-js-collapse-subprocess",
+  "version": "0.1.0",
+  "description": "bpmn-js extension which re-enables to collapse subprocess via replace menu",
+  "main": "index.js",
+  "scripts": {
+    "lint": "eslint .",
+    "dev": "npm test -- --auto-watch --no-single-run",
+    "test": "karma start karma.config.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/barmac/bpmn-js-collapse-subprocess.git"
+  },
+  "author": "Maciej Barelkowski <maciejbarel@gmail.com> (https://github.com/barmac)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/barmac/bpmn-js-collapse-subprocess/issues"
+  },
+  "homepage": "https://github.com/barmac/bpmn-js-collapse-subprocess#readme",
+  "devDependencies": {
+    "bpmn-js": "^5.1.2",
+    "chai": "^4.2.0",
+    "eslint": "^6.6.0",
+    "eslint-plugin-bpmn-io": "^0.10.0",
+    "karma": "^4.4.1",
+    "karma-chai": "^0.1.0",
+    "karma-chrome-launcher": "^3.1.0",
+    "karma-env-preprocessor": "^0.1.1",
+    "karma-firefox-launcher": "^1.2.0",
+    "karma-ie-launcher": "^1.0.0",
+    "karma-mocha": "^1.3.0",
+    "karma-safari-launcher": "^1.0.0",
+    "karma-webpack": "^4.0.2",
+    "mocha": "^6.2.2",
+    "mocha-test-container-support": "^0.2.0",
+    "puppeteer": "^2.0.0",
+    "raw-loader": "^3.1.0",
+    "webpack": "^4.41.2"
+  },
+  "dependencies": {
+    "diagram-js": "github:bpmn-io/diagram-js#develop",
+    "min-dash": "^3.5.2"
+  },
+  "peerDependencies": {
+    "bpmn-js": ">5.1.2"
+  }
+}

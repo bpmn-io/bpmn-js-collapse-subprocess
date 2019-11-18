@@ -39,10 +39,10 @@
     "webpack": "^4.41.2"
   },
   "dependencies": {
-    "diagram-js": "github:bpmn-io/diagram-js#develop",
     "min-dash": "^3.5.2"
   },
   "peerDependencies": {
-    "bpmn-js": ">5.1.2"
+    "bpmn-js": ">5.1.2",
+    "diagram-js": ">=5.2.0"
   }
 }

@@ -19,7 +19,7 @@
   },
   "homepage": "https://github.com/barmac/bpmn-js-collapse-subprocess#readme",
   "devDependencies": {
-    "bpmn-js": "^6.0.0-beta.0",
+    "bpmn-js": "^7.2.0",
     "chai": "^4.2.0",
     "eslint": "^6.6.0",
     "eslint-plugin-bpmn-io": "^0.10.0",

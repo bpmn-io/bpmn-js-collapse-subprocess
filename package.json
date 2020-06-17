@@ -1,6 +1,6 @@
 {
   "name": "bpmn-js-collapse-subprocess",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "bpmn-js extension which re-enables to collapse subprocess via replace menu",
   "main": "index.js",
   "scripts": {

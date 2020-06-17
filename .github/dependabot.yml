@@ -14,8 +14,6 @@ updates:
     allow:
       - dependency-name: "bpmn-js"
         dependency-type: "all"
-      - dependency-name: "diagram-js"
-        dependency-type: "all"
     commit-message:
       prefix: "chore(project):"
     versioning-strategy: "increase"
